@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "chai": "^4.3.7",
+    "@lodestar/types": "^1.5.1"
+  }
+}
