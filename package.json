@@ -1,6 +1,12 @@
 {
+  "type": "module",
   "dependencies": {
     "chai": "^4.3.7",
-    "@lodestar/types": "^1.5.1"
+    "@lodestar/types": "^1.5.1",
+    "tsx": "^3.12.5"
+  },
+  "scripts": {
+    "test": "mocha -r tsx common.test.ts",
+    "test2": "tsx common.ts"
   }
 }
